@@ -41,7 +41,7 @@ return '<a href="'.Yii::getAlias('web').'/uploads/'.$data->file.'">Download imag
             // 'auth_key',
             // 'password_hash',
             // 'password_reset_token',
-            // 'status',
+             'job',
             // 'fk_role_id',
             // 'created_at',
             // 'updated_at',
