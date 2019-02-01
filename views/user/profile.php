@@ -30,6 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'first_name',
             //'middle_name',
             'last_name',
+          'job',
             [
                 'label'=>'Document',
                 'format' => 'raw',
@@ -41,7 +42,7 @@ return '<a href="'.Yii::getAlias('web').'/uploads/'.$data->file.'">Download imag
             // 'auth_key',
             // 'password_hash',
             // 'password_reset_token',
-             'job',
+             
             // 'fk_role_id',
             // 'created_at',
             // 'updated_at',
