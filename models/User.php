@@ -104,7 +104,7 @@ class User extends ActiveRecord implements IdentityInterface
             // [['email'], 'unique'],
             [['password_reset_token'], 'unique'],
             [['status'], 'string'],
-            [['created_at', 'updated_at','file'], 'safe'],
+            [['created_at', 'updated_at','file','job'], 'safe'],
  
         ];
     }
