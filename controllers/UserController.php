@@ -35,7 +35,7 @@ class UserController extends Controller
      */
     public function actionIndex()
     {
-		
+		echo 'here';die;
         $dataProvider = new ActiveDataProvider([
             'query' => User::find(),
         ]);
