@@ -30,6 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'first_name',
             //'middle_name',
             'last_name',
+			'job',
             [
                 'label'=>'Document',
                 'format' => 'raw',
