@@ -131,7 +131,7 @@ class UserController extends Controller
     }
 
     public function actionProfile(){
-	    echo 'here';die;
+	   
         $dataProvider = new ActiveDataProvider([
             'query' => User::find(),
         ]);
