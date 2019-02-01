@@ -1,5 +1,5 @@
-<?php
 
+<<<<<<< HEAD
 use yii\helpers\Html;
 use yii\grid\GridView;
 
@@ -55,3 +55,5 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
     ]); ?>
 </div>
+=======
+>>>>>>> 79310b1d64d410b6ec76da422b711143f3815f3c

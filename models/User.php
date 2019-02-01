@@ -67,7 +67,7 @@ class User extends ActiveRecord implements IdentityInterface
         return [
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             //['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
-            [['first_name', 'auth_key', 'password_hash','status', 'fk_role_id'], 'required'],
+            [['first_name', 'auth_key', 'password_hash','status', 'fk_role_id','job'], 'required'],
             ['username', 'required', 'message' => 'Registration No Cannot Be Blank.'],
             ['username', 'string'],
             // ['Image', 'image', 'maxSize' => 1024 * 1024 * 0.5],
