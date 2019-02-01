@@ -34,11 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label'=>'Document',
                 'format' => 'raw',
                 'value'=>function($data){
-					$d=Yii::getAlias('@web').'/uploads/'. $data->file;
-					return Html::a($d, ['/grid-options'], ['download'=>'download']);
-					//<a href="/images/myw3schoolsimage.jpg" download>
-                   //return Html::img(Yii::getAlias('@web').'/uploads/'. $data->profile,
-                //['width' => '108px']);
+return '<a href="'.Yii::getAlias('web').'/uploads/'.$data->file.'">Download image</a>';
                 }
             ],
             // 'email:email',
